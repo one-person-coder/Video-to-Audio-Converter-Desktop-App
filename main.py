@@ -32,26 +32,26 @@ class VideoConverter(CTk):
 
   # Updated Sophisticated Color Palette
   COLORS = {
-      "bg_primary": "#ffffff",        # White background
-      "bg_secondary": "#f7f8fa",      # Ultra Light Gray/Off-White (Clean Look)
-      "bg_card": "#ffffff",           # White cards
-      "accent": "#0059b3",            # Deep Ocean Blue (Primary)
-      "accent_hover": "#004080",
-      "accent_light": "#4cc9f0",
-      "success": "#1a8040",           # Rich Forest Green
-      "success_hover": "#146633",
-      "warning": "#ffc107",
-      "error": "#dc3545",
-      "text_primary": "#343a40",
-      "text_secondary": "#6c757d",
-      "text_light": "#adb5bd",
-      "border": "#e9ecef",
-      "border_light": "#f8f9fa",
-      "shadow": "rgba(0, 0, 0, 0.05)",
-      "hover": "#e2e6ea",
-      "progress": "#0059b3",
-      "disabled": "#e9ecef",
-      "button_text": "#ffffff"
+      "bg_primary": "#f5f7fa",        # Soft light gray background
+      "bg_secondary": "#ffffff",      # White for sections/cards
+      "bg_card": "#ffffff",           # White cards with subtle shadows
+      "accent": "#3b82f6",            # Modern vibrant blue
+      "accent_hover": "#2563eb",      # Slightly darker blue on hover
+      "accent_light": "#93c5fd",      # Light blue for highlights
+      "success": "#16a34a",           # Fresh green
+      "success_hover": "#15803d",
+      "warning": "#f59e0b",           # Amber/yellow
+      "error": "#dc2626",             # Bright red
+      "text_primary": "#111827",      # Dark gray/almost black
+      "text_secondary": "#6b7280",    # Medium gray
+      "text_light": "#9ca3af",        # Light gray
+      "border": "#e5e7eb",            # Soft border gray
+      "border_light": "#f3f4f6",      # Very subtle border
+      "shadow": "rgba(0, 0, 0, 0.08)",  # Soft shadow
+      "hover": "#f3f4f6",             # Light hover background
+      "progress": "#3b82f6",          # Matches accent
+      "disabled": "#d1d5db",          # Gray for disabled elements
+      "button_text": "#ffffff"        # White button text
   }
 
   def __init__(self):
